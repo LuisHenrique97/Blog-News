@@ -1,0 +1,130 @@
+/* Limpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+#cabecalho {
+    background: #f7b600;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#logo {
+    padding: 1rem;
+}
+
+#menu {
+    padding: 1rem;
+}
+
+#principal {
+    width: 92rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+#postagens {
+    width: 66rem;
+    float: left;
+}
+
+#menu-lateral {
+    width: 24rem;
+    float: right;
+
+}
+
+#rodape {
+    background: #f7b600;
+    clear: both;
+    background: #ccc;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.post {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.post a:hover{
+    background: none;
+}
+
+/* Menu Lateral */
+.newslatter {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+/* Formatações gerais */
+
+h1 {
+    color: #4e4e4e;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 0.5rem;
+}
+
+.branco {
+    color: white;
+}
+.data-post {
+    font-size: 1.2rem;
+    border-bottom: 0.1rem solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.post-lateral {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    display: block;
+}
+.titulo {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Formatação do menu */
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+#menu a:link, #menu a:visited {
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+}
+
+#menu a:hover {
+    background: #fff;
+    color: #f7b600;
+}
